@@ -73,7 +73,7 @@
       
 
 <h2 itemprop="name">
-  <a class="article-title" href="/2022/08/07/grader/">grader</a>
+  <a class="article-title" href="/2020/06/10/grader/">职称评审管理系统</a>
 </h2>
 
 
@@ -83,8 +83,8 @@
 
     
     <div class="article-meta">
-      <a href="/2022/08/07/grader/" class="article-date">
-  <time datetime="2022-08-07T06:25:51.000Z" itemprop="datePublished">2022-08-07</time>
+      <a href="/2020/06/10/grader/" class="article-date">
+  <time datetime="2020-06-10T06:25:51.000Z" itemprop="datePublished">2020-06-10</time>
 </a>
       
     </div>
@@ -98,63 +98,58 @@
         
       
       
-      
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/08/07/grader/" data-id="cl6ixycln000061zlc8776vp6" class="article-share-link">
-        Share
-      </a>
-      
-    </footer>
-
-  </div>
-
-  
-
-  
-
-</article>
-    
-    <article id="post-saveLove" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-      
-
-<h2 itemprop="name">
-  <a class="article-title" href="/2022/08/07/saveLove/">saveLove</a>
-</h2>
-
-
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2022/08/07/saveLove/" class="article-date">
-  <time datetime="2022-08-07T06:25:13.000Z" itemprop="datePublished">2022-08-07</time>
-</a>
-      
-    </div>
-    
-
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-        
-      
-      
-      
+      <h2 id="职称评审管理系统"><a href="#职称评审管理系统" class="headerlink" title="职称评审管理系统"></a>职称评审管理系统</h2><blockquote>
+<p>*JAVA + Tomcat + MySQL | jsp + Servlet + JavaBean | B&#x2F;S *</p>
+</blockquote>
+<pre><code>本课题把握现有职称评审管理软件应用缺口，拟实现一套基于B/S模式的职称评审管理系统。系统面向教师、相关部门、专家、管理员4类用户，支持整个职称申请工作开展。管理员可进行用户添加、系统管理、数据备份；教师可进行信息管理、申请申报、材料提交、通知查看；相关部门可进行公告发布、申报审核、选派专家、指标审批、结果公示；专家可进行材料评审、提交打分等。
+</code></pre>
+<h3 id="模块简介"><a href="#模块简介" class="headerlink" title="模块简介"></a>模块简介</h3><pre><code>根据四类用户职能分析与设计，系统共划分22个模块。
+</code></pre>
+<h4 id="教师功能模块"><a href="#教师功能模块" class="headerlink" title="教师功能模块"></a>教师功能模块</h4><ul>
+<li>个人信息管理模块：支持教师用户登陆后进行个人信息修改。</li>
+<li>职称申请管理模块：教师用户在线添加职称申请，且可查看申请进度。</li>
+<li>通知公告栏模块：教师用户可以收到系统上人事部发布的职称申请相关公告，支持附件下载。</li>
+<li>评审得分公示模块：教师用户可查看和打印申请的最终得分、排名等信息。</li>
+</ul>
+<h4 id="人事部功能模块"><a href="#人事部功能模块" class="headerlink" title="人事部功能模块"></a>人事部功能模块</h4><ul>
+<li>个人信息管理模块：人事部用户登陆后进行部门信息修改。</li>
+<li>职称申请管理模块：人事部用户可查看教师用户提交的申请记录，可针对具体记录进行材料审核，决定是否推荐给专家评审。</li>
+<li>评审专家选定模块：人事部用户可以查看专家库和已有的申请方向类别，对不同方向类别记录选定对应的专家进行评审。</li>
+<li>结果审核管理模块：人事部用户可查看专家评审结果，进行排名管理，并进行最终指标审批和结果公示，也可对相关信息进行打印。</li>
+<li>通知公告管理模块：人事部用户可上传附件和发布公告，通知其他用户有关职称申请工作的最新通知。</li>
+</ul>
+<h4 id="专家功能模块"><a href="#专家功能模块" class="headerlink" title="专家功能模块"></a>专家功能模块</h4><ul>
+<li>个人信息管理模块：支持专家用户登陆后进行个人信息修改。</li>
+<li>职称申请查看模块：专家用户可查看分配到的职称申请记录，可结合材料对具体记录进行评分，每条记录需要3位专家进行评分。</li>
+<li>通知公告栏模块：专家用户可收到系统上人事部发布的职称申请相关公告，支持附件下载。	</li>
+<li>评审得分公示模块：专家用户可以查看最终公示的结果。</li>
+</ul>
+<h4 id="管理员功能模块"><a href="#管理员功能模块" class="headerlink" title="管理员功能模块"></a>管理员功能模块</h4><ul>
+<li>系统用户管理模块：管理员负责系统管理员添加和修改个人密码。</li>
+<li>院系信息管理模块：管理员负责院系信息的录入与管理。</li>
+<li>教师信息管理模块：管理员负责教师信息的录入与管理。</li>
+<li>专家信息管理模块：管理员可进行专家信息的录入与管理。</li>
+<li>人事部管理模块：管理员可进行人事部门信息的录入与管理。</li>
+<li>职称信息管理模块：管理员可进行职称信息的录入与管理。</li>
+<li>职称申请管理模块：管理员可对职称申请记录进行查看、删除与修改等操作。</li>
+<li>评审结果管理模块：管理员可对评审结果进行删除、查看与打印等操作。</li>
+<li>通知公告管理模块：管理员可进行公告发布，通知其他用户有关系统的最新通知。</li>
+<li>系统管理模块：管理员可以进行系统数据备份管理。</li>
+</ul>
+<h3 id="系统架构"><a href="#系统架构" class="headerlink" title="系统架构"></a>系统架构</h3><p><img src="/images/3-1.png" alt="模块划分"></p>
+<h3 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h3><pre><code>操作系统：系统开发环境为Windows10系统以及Microsoft Edge浏览器。
+开发工具：使用MyEclipse6.0、MySQL5.0、Navicat for MySQL10.0、tomcat6.0、JDK1.8等开发工具。  
+以java语言作为主要编程语言，利用MySQL进行数据存储，通过tomcat进行服务器搭载。编写html文件设置浏览器显示内容，编写CSS文件对html样式进行渲染控制浏览器显示方式；编写js文件支持交互特效等内容；编写jsp动态文件控制系统页面动态更改。
+</code></pre>
+<hr>
+<h3 id="界面展示"><a href="#界面展示" class="headerlink" title="界面展示"></a>界面展示</h3><p><img src="/images/3-2.png" alt="页面1"><br><img src="/images/3-3.png" alt="页面2"><br><img src="/images/3-4.png" alt="页面3"><br><img src="/images/3-5.png" alt="页面4"><br><img src="/images/3-6.png" alt="页面5"></p>
+<hr>
+<p>项目地址：<a target="_blank" rel="noopener" href="https://github.com/lixiang103/school">职称评审管理系统</a>。</p>
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/08/07/saveLove/" data-id="cl6ixyclp000161zl35aubjkp" class="article-share-link">
+      <a data-url="http://example.com/2020/06/10/grader/" data-id="cl6ixycln000061zlc8776vp6" class="article-share-link">
         Share
       </a>
       
@@ -177,7 +172,7 @@
       
 
 <h2 itemprop="name">
-  <a class="article-title" href="/2022/08/07/youngAPP/">youngAPP</a>
+  <a class="article-title" href="/2019/12/07/youngAPP/">“有魔有young”APP</a>
 </h2>
 
 
@@ -187,8 +182,8 @@
 
     
     <div class="article-meta">
-      <a href="/2022/08/07/youngAPP/" class="article-date">
-  <time datetime="2022-08-07T06:24:58.000Z" itemprop="datePublished">2022-08-07</time>
+      <a href="/2019/12/07/youngAPP/" class="article-date">
+  <time datetime="2019-12-07T06:24:58.000Z" itemprop="datePublished">2019-12-07</time>
 </a>
       
     </div>
@@ -202,11 +197,48 @@
         
       
       
-      
+      <h2 id="“有魔有young”APP"><a href="#“有魔有young”APP" class="headerlink" title="“有魔有young”APP"></a>“有魔有young”APP</h2><blockquote>
+<ul>
+<li>Android&#x2F;MySQL&#x2F;Material-UI、Django、OkHttp *</li>
+</ul>
+</blockquote>
+<pre><code>从整体上，“有魔有young”可划分为注册模块、登录模块、拍照模块、魔幻美颜模块、魔法去印模块、神奇压缩模块、魔力换脸模块、我的模块。
+1）用户在注册后，可以进行登录，进而使用首页、社区、商城、我的四大导航栏内容。
+2）APP首页部分可以帮助用户完成拍照、魔幻美颜、魔法去印、神奇压缩、魔力换脸等功能。
+3）魔力换脸功能支持用户自主选择想要进行换脸的对象，若库中不存在用户可以进行自定义。
+4）神奇压缩部分，支持用户选择想要压缩后的大小，为方便用户传送照片方便快捷。
+5）用户对于满意的照片可以在社区进行分享，同时也能查看、评论或点赞社区中其他人的动态。
+</code></pre>
+<h3 id="模块简介"><a href="#模块简介" class="headerlink" title="模块简介"></a>模块简介</h3><ul>
+<li>注册模块：用户通过注册，获得登录账号与密码。</li>
+<li>登录模块：使用者登录后可获得APP使用权限。</li>
+<li>拍照模块：用户通过相机进行拍照，并将照片存入手机相册中。</li>
+<li>魔幻美颜模块：用户可以使用瘦脸，磨皮等美颜特效。</li>
+<li>魔法去印模块：可以对含水印图片进行去水印。</li>
+<li>神奇压缩模块：可以对目标图片进行压缩。</li>
+<li>魔力换脸模块：用户对目标照片进行换脸。</li>
+<li>我的模块：包括用户个人资料、历史动态、订单信息。、</li>
+</ul>
+<h3 id="算法说明"><a href="#算法说明" class="headerlink" title="算法说明"></a>算法说明</h3><ul>
+<li>本项目中的四个功能中, 换脸技术我们使用基于神经网络的深度学习技术, 利用第三方训练好的数据集合进行人脸识别, 然后进行特征提取, 最后进行换脸。 </li>
+<li>去除水印我们使用open cv中inpaint函数, 该函数提供了两种图像修补算法, 基于快速行进算法和基于流体力学并使用了偏微分方程。 </li>
+<li>美颜算法我们依旧基于神经网络首先识别人脸, 然后对图像进行锐化, 降噪等操作, 然后瘦脸采用spine插值算法。 </li>
+<li>图像压缩我们使用两种算法, 一种是主流的svd算法, 另一种是基于机器学习聚类算法的k-means算法。</li>
+</ul>
+<h3 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h3><pre><code>本实验所使用的开发环境是win10 + android studio3.0 + Django + python 3.6 + mysql 5.7 + 基于神经网络的深度学习模型；
+采用流行的C/S架构, 客户端采用android开发技术, 服务端采用基于python的重量级框架Django；
+选择Google2017年开发者大会上提出的Material Design设计UI；
+网络通信方面我们选择较为成熟和使用的OkHttp库, 方便且线程安全。
+</code></pre>
+<hr>
+<h3 id="界面展示"><a href="#界面展示" class="headerlink" title="界面展示"></a>界面展示</h3><p><img src="/images/2-1.jpg" alt="进入APP"><br><img src="/images/2-2.jpg" alt="首页"><br><img src="/images/2-3.jpg" alt="首页"><br><img src="/images/2-4.jpg" alt="个人信息页面"></p>
+<hr>
+<p>项目地址：<a target="_blank" rel="noopener" href="https://github.com/lixiang103/magic">有魔有youngAPP</a>。</p>
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/08/07/youngAPP/" data-id="cl6ixyclq000261zl3825e84e" class="article-share-link">
+      <a data-url="http://example.com/2019/12/07/youngAPP/" data-id="cl6ixyclq000261zl3825e84e" class="article-share-link">
         Share
       </a>
       
@@ -229,7 +261,7 @@
       
 
 <h2 itemprop="name">
-  <a class="article-title" href="/2022/08/07/trainer/">trainer</a>
+  <a class="article-title" href="/2019/03/03/trainer/">trainer</a>
 </h2>
 
 
@@ -239,8 +271,8 @@
 
     
     <div class="article-meta">
-      <a href="/2022/08/07/trainer/" class="article-date">
-  <time datetime="2022-08-07T06:24:06.000Z" itemprop="datePublished">2022-08-07</time>
+      <a href="/2019/03/03/trainer/" class="article-date">
+  <time datetime="2019-03-03T06:24:06.000Z" itemprop="datePublished">2019-03-03</time>
 </a>
       
     </div>
@@ -272,19 +304,20 @@
 <li><strong>财务结算模块</strong> ：进行售票月度、季度、年度等财物结算。</li>
 
 
-<h3 id="系统架构"><a href="#系统架构" class="headerlink" title="系统架构"></a>系统架构</h3><p><img src="https://www.mdeditor.cn/examples/images/8.jpg"></p>
+<h3 id="系统架构"><a href="#系统架构" class="headerlink" title="系统架构"></a>系统架构</h3><p><img src="/images/1-1.png" alt="模块划分"></p>
 <h3 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h3><pre><code>本系统所使用的开发环境是win10 + Myeclipse2017 + tomcat7.0 + mysql5.7。 
 使用sun公司推荐的两种javaweb 开发模式中的其中一种jsp + servlet+javabean。
 jsp + servlet+javabean模式是一种简单的MVC开发模式,控制器(Controller)采用Servlet、模型(Model)采用JavaBean、视图(View)采用JSP。
 </code></pre>
 <hr>
-<h3 id="界面展示"><a href="#界面展示" class="headerlink" title="界面展示"></a>界面展示</h3><hr>
-<p>项目地址：<a target="_blank" rel="noopener" href="https://github.com/pandao/editor.md" title="Editor.md">长途汽车网上售票系统</a>。</p>
+<h3 id="界面展示"><a href="#界面展示" class="headerlink" title="界面展示"></a>界面展示</h3><p><img src="/images/1-2.jpg" alt="页面1"><br><img src="/images/1-3.jpg" alt="页面2"><br><img src="/images/1-4.jpg" alt="页面3"><br><img src="/images/1-5.png" alt="页面4"></p>
+<hr>
+<p>项目地址：<a target="_blank" rel="noopener" href="https://github.com/lixiang103/ticket">长途汽车网上售票系统</a>。</p>
 <h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/08/07/trainer/" data-id="cl6ixyclr000361zlgquk56je" class="article-share-link">
+      <a data-url="http://example.com/2019/03/03/trainer/" data-id="cl6ixyclr000361zlgquk56je" class="article-share-link">
         Share
       </a>
       
@@ -298,7 +331,7 @@ jsp + servlet+javabean模式是一种简单的MVC开发模式,控制器(Controll
 
 </article>
     
-    <article id="post-hello-world" class="article article-type-post" itemscope
+    <article id="post-saveLove" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -307,7 +340,7 @@ jsp + servlet+javabean模式是一种简单的MVC开发模式,控制器(Controll
       
 
 <h2 itemprop="name">
-  <a class="article-title" href="/2022/08/07/hello-world/">Hello World</a>
+  <a class="article-title" href="/2018/08/07/saveLove/">留守儿童守护网站</a>
 </h2>
 
 
@@ -317,8 +350,8 @@ jsp + servlet+javabean模式是一种简单的MVC开发模式,控制器(Controll
 
     
     <div class="article-meta">
-      <a href="/2022/08/07/hello-world/" class="article-date">
-  <time datetime="2022-08-07T05:23:13.448Z" itemprop="datePublished">2022-08-07</time>
+      <a href="/2018/08/07/saveLove/" class="article-date">
+  <time datetime="2018-08-07T06:25:13.000Z" itemprop="datePublished">2018-08-07</time>
 </a>
       
     </div>
@@ -332,11 +365,21 @@ jsp + servlet+javabean模式是一种简单的MVC开发模式,控制器(Controll
         
       
       
-      
+      <h2 id="留守儿童守护网站"><a href="#留守儿童守护网站" class="headerlink" title="留守儿童守护网站"></a>留守儿童守护网站</h2><blockquote>
+<ul>
+<li>MintUI + ElementUI + vue-cli3、Egg + MySQL + Sequelize、iView admin *</li>
+</ul>
+</blockquote>
+<pre><code>留守儿童守护网站，与支教团以及相关公益组织合作，依托黔贵地区留守儿童爱心呵护活动，衍生的一对一帮扶网站。
+由于项目隐私性，暂不做开放。
+</code></pre>
+<hr>
+<p>项目地址：<a target="_blank" rel="noopener" href="https://github.com/">暂时不方便公开</a>。</p>
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/08/07/hello-world/" data-id="cl6iwzedl0000kczleir0hblv" class="article-share-link">
+      <a data-url="http://example.com/2018/08/07/saveLove/" data-id="cl6ixyclp000161zl35aubjkp" class="article-share-link">
         Share
       </a>
       
@@ -389,7 +432,7 @@ jsp + servlet+javabean模式是一种简单的MVC开发模式,控制器(Controll
   <ul class="nav nav-main">
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/archives">Home</a>
+      <a class="nav-item-link" href="/">Home</a>
     </li>
     
     <li class="nav-item">
