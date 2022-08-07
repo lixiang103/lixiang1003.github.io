@@ -110,7 +110,7 @@
 <h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3>]]></content>
   </entry>
   <entry>
-    <title>trainer</title>
+    <title>长途汽车网上售票系统</title>
     <url>/2019/03/03/trainer/</url>
     <content><![CDATA[<h2 id="长途汽车网上售票系统"><a href="#长途汽车网上售票系统" class="headerlink" title="长途汽车网上售票系统"></a>长途汽车网上售票系统</h2><blockquote>
 <p>*JAVA + Tomcat + MySQL | jsp + Servlet + JavaBean | B&#x2F;S *</p>
@@ -140,5 +140,21 @@ jsp + servlet+javabean模式是一种简单的MVC开发模式,控制器(Controll
 <hr>
 <p>项目地址：<a href="https://github.com/lixiang103/ticket">长途汽车网上售票系统</a>。</p>
 <h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3>]]></content>
+  </entry>
+  <entry>
+    <title>写在前面</title>
+    <url>/2020/08/07/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/</url>
+    <content><![CDATA[<h2 id="个人项目主页说明"><a href="#个人项目主页说明" class="headerlink" title="个人项目主页说明"></a>个人项目主页说明</h2><pre><code>笔者只是记录自一路前行的脚印，
+
+潦草不成篇，
+
+但求行而不辍，不弃微末。
+
+如果有幸被可爱的人点进来看到，
+
+那么，我们也算神交一场，往后共勉。
+</code></pre>
+<hr>
+]]></content>
   </entry>
 </search>
