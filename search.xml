@@ -3,20 +3,7 @@
   <entry>
     <title>Hello World</title>
     <url>/2022/08/07/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>grader</title>
@@ -36,6 +23,32 @@
   <entry>
     <title>trainer</title>
     <url>/2022/08/07/trainer/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h2 id="长途汽车网上售票系统"><a href="#长途汽车网上售票系统" class="headerlink" title="长途汽车网上售票系统"></a>长途汽车网上售票系统</h2><blockquote>
+<p>*JAVA + Tomcat + MySQL | jsp + Servlet + JavaBean | B&#x2F;S *</p>
+</blockquote>
+<pre><code>长途汽车网上售票系统，面向两类用户授权，共有两种登陆模式，包括管理员登陆模式、用户登陆模式，且两类用户登陆后的使用权限与功能有所差异。对于管理员，系统分为登录模块、优惠设置模块、车次管理模块、售票统计模块、财务结算模块；对于用户，系统包括注册模块，登录模块、车票查看与购买模块、订单管理模块、个人信息模块、查看新闻模块、查看指南模块。
+</code></pre>
+<h3 id="模块简介"><a href="#模块简介" class="headerlink" title="模块简介"></a>模块简介</h3><li><strong>注册模块</strong> ：用户通过注册，获得登录账号与密码；</li>
+<li><strong>登录模块</strong> ：使用者登录后可获得系统使用权限；</li>
+<li><strong>车票查看与购买模块</strong> ：用户可以完成车票的查询与购买；</li>
+<li><strong>订单管理模块</strong> ：用户可以查看历史订单，并支持用户退票；</li>
+<li><strong>个人信息模块</strong> ：用户可以查看或修改个人信息；</li>
+<li><strong>查看新闻模块</strong> ：查看站内售票新闻；</li>
+<li><strong>查看指南模块</strong> ：查看站内购票指南；</li>
+<li><strong>优惠设置模块</strong> ：管理员可以设置相关优惠，包括团体票，军人等；</li>
+<li><strong>车次管理模块</strong> ：管理员可以进行车次信息的增删改查；</li>
+<li><strong>售票统计模块</strong> ：获得售票统计信息；</li>
+<li><strong>财务结算模块</strong> ：进行售票月度、季度、年度等财物结算。</li>
+
+
+<h3 id="系统架构"><a href="#系统架构" class="headerlink" title="系统架构"></a>系统架构</h3><p><img src="https://www.mdeditor.cn/examples/images/8.jpg"></p>
+<h3 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h3><pre><code>本系统所使用的开发环境是win10 + Myeclipse2017 + tomcat7.0 + mysql5.7。 
+使用sun公司推荐的两种javaweb 开发模式中的其中一种jsp + servlet+javabean。
+jsp + servlet+javabean模式是一种简单的MVC开发模式,控制器(Controller)采用Servlet、模型(Model)采用JavaBean、视图(View)采用JSP。
+</code></pre>
+<hr>
+<h3 id="界面展示"><a href="#界面展示" class="headerlink" title="界面展示"></a>界面展示</h3><hr>
+<p>项目地址：<a href="https://github.com/pandao/editor.md" title="Editor.md">长途汽车网上售票系统</a>。</p>
+<h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3>]]></content>
   </entry>
 </search>
